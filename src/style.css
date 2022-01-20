@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.container-fluid-text-center {
+  background: rgb(107, 189, 107);
+}
+
+.card {
+  margin: 50px auto;
+  border: 2px solid gray;
+  height: 600px;
+  width: 400px;
+  border-radius: 25px;
+}
+
+.number {
+  height: 15%;
+  margin: 50px auto;
+  font-size: 150px;
+}
+
+.suit {
+  text-align: left;
+  height: 10%;
+  margin: 50px;
+  font-size: 50px;
+}
+
+.upsidedown-suit {
+  display: inline-block;
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  text-align: right;
+  height: 25%;
+  margin: 50px;
+  font-size: 50px;
+}
